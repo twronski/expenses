@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @budget.month %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @budget.amount %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @budget.category_id %>
+</p>
+
+<%= link_to 'Edit', edit_budget_path(@budget) %> |
+<%= link_to 'Back', budgets_path %>
